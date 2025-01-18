@@ -1,0 +1,10 @@
+<!ELEMENT isdb (round+)>
+<!ELEMENT round (batch,student+)>
+<!ELEMENT batch (#PCDATA)>
+<!ELEMENT student (name,age,address)>
+<!ELEMENT name (#PCDATA)>
+<!ELEMENT age (#PCDATA)>
+<!ELEMENT address (#PCDATA|district|thana|village)*>
+<!ELEMENT district (#PCDATA)>
+<!ELEMENT thana (#PCDATA)>
+<!ELEMENT village (#PCDATA)>

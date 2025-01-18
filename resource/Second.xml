@@ -1,0 +1,12 @@
+<data>
+    <record>
+        <name>'Test Record 1'</name>
+        <description>'Test Record 1 Description'</description>
+        <tag>critical</tag>
+    </record>
+    <record>
+        <name>'Test Record 2'</name>
+        <description>'Test Record 2 Description'</description>
+        <tag>security</tag>
+    </record>
+</data>
